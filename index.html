@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sPanel ID | Backup Example</title>
+    <link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&amp;family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <div class="logo-icon">
+            <i class="fa-solid fa-heartbeat"></i>
+          </div>
+          <span class="logo-text">MGB</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#nutrition">Nutrisi</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+
+        <a href="#about" class="btn-cta">Daftar Sekarang</a>
+
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- SIDEBAR (UNTUK MOBILE) -->
+    <div class="overlay" id="overlay"></div>
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <a href="#" class="logo">
+          <span class="logo-text" style="color: var(--primary);">MGB Menu</span>
+        </a>
+        <div class="close-btn" id="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <ul class="sidebar-links">
+        <li><a href="#home" class="side-link">Beranda</a></li>
+        <li><a href="#about" class="side-link">Tentang Kami</a></li>
+        <li><a href="#nutrition" class="side-link">Nutrisi</a></li>
+        <li><a href="#contact" class="side-link">Kontak</a></li>
+      </ul>
+      <a href="#about" class="btn-cta" style="text-align: center; margin-top: 20px;">Daftar Sekarang</a>
+    </aside>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="badge">
+          <i class="fa-solid fa-clock-rotate-left"></i> Hadir Setiap Hari untuk Lansia
+        </div>
+        <h1 class="hero-title">Senyum Masa Tua Lewat <span>Makan Gratis Bergizi</span></h1>
+        <p class="hero-desc">MGB berkomitmen menyediakan hidangan makanan sehat, lezat, dan gratis khusus untuk para lansia tercinta. Menjamin asupan nutrisi seimbang untuk hari tua yang lebih ceria dan bertenaga.</p>
+        <div class="hero-btns">
+          <a href="#about" class="btn-cta">Pelajari Program</a>
+          <a href="#contact" class="btn-secondary">Hubungi Kami <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Menggunakan ilustrasi hangat yang cocok untuk lansia/makanan sehat -->
+        <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&amp;fit=crop&amp;q=80&amp;w=600" alt="Lansia Bahagia">
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="section-header">
+        <div class="badge"><i class="fa-solid fa-smile"></i> Misi Kami</div>
+        <h2 class="section-title">Kenapa <span>MGB Lansia</span> Sangat Penting?</h2>
+        <p class="section-subtitle">Kami percaya bahwa kecukupan gizi di usia senja adalah kunci utama kebahagiaan dan kesehatan kakek-nenek kita.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Card 1 -->
+        <div class="about-card">
+          <div class="card-icon">
+            <i class="fa-solid fa-apple-whole"></i>
+          </div>
+          <h3 class="card-title">Nutrisi Khusus</h3>
+          <p class="card-desc">Setiap menu dirancang khusus ahli gizi untuk memenuhi kebutuhan fisik lansia yang memerlukan tekstur lembut &amp; rendah garam.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="about-card">
+          <div class="card-icon">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <h3 class="card-title">100% Gratis</h3>
+          <p class="card-desc">Program ini didukung penuh oleh donatur dan sukarelawan sehingga lansia tidak perlu mengeluarkan biaya sepeser pun.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="about-card">
+          <div class="card-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="card-title">Higienis &amp; Bersih</h3>
+          <p class="card-desc">Dapur pengolahan MGB selalu dijaga ketat kebersihannya serta menggunakan bahan pangan lokal yang segar dan alami.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO DETAIL SECTION -->
+    <section class="info-detail" id="nutrition">
+      <div class="info-container">
+        <div class="info-img">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&amp;fit=crop&amp;q=80&amp;w=600" alt="Makanan Bergizi">
+        </div>
+        <div class="info-text">
+          <h3>Keseimbangan Piring Makan Lansia</h3>
+          <p>Proses penuaan menurunkan fungsi metabolisme tubuh. Oleh karena itu, porsi makanan MGB disesuaikan agar mudah dicerna namun kaya akan serat, kalsium, dan vitamin esensial.</p>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-circle-check"></i> Sumber protein lembut (ikan, tahu, telur rebus)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Sayur mayur yang dimasak lunak</li>
+            <li><i class="fa-solid fa-circle-check"></i> Buah-buahan segar bertekstur mudah dikunyah</li>
+            <li><i class="fa-solid fa-circle-check"></i> Kurang minyak, gula, dan tanpa pengawet buatan</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="footer-box">
+          <a href="#" class="logo" style="margin-bottom: 20px;">
+            <div class="logo-icon" style="background: var(--secondary);"><i class="fa-solid fa-heartbeat"></i></div>
+            <span class="logo-text" style="color: var(--white);">MGB</span>
+          </a>
+          <p>Makan Gratis Bergizi - Dedikasi nyata demi kesehatan dan kebahagiaan para lansia di masa tuanya.</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-box">
+          <h4>Tautan Cepat</h4>
+          <p><a href="#home">Beranda</a></p>
+          <p><a href="#about">Tentang Kami</a></p>
+          <p><a href="#nutrition">Nutrisi Lansia</a></p>
+          <p><a href="#contact">Hubungi Kami</a></p>
+        </div>
+
+        <div class="footer-box">
+          <h4>Kontak MGB</h4>
+          <p><i class="fa-solid fa-envelope" style="color: var(--primary);"></i> info@mgb-lansia.org</p>
+          <p><i class="fa-solid fa-phone" style="color: var(--primary);"></i> +62 812-3456-7890</p>
+          <p><i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> Jl. Kebajikan No. 10, Jakarta, Indonesia</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© 2026 Makan Gratis Bergizi (MGB). Dibuat dengan penuh rasa sayang ❤️ oleh Suryo DwiJayanto/Iyortml.</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
